@@ -1,4 +1,4 @@
-# newpaper_android_app
+# newspaper_android_app
 
 REQUIRED PLATFORMS : 
 		INSTALL IDE like NETBEANS from ------>  https://netbeans.org/community/releases/80/install.html
