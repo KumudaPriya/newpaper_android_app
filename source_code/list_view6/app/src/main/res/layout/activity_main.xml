@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+
+
+    >
+
+    <ImageView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:background="@drawable/newspapers"
+        android:alpha="0.600"
+
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/welcome_text_view"
+        android:text="Welcome to your work newsfeed!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        android:alpha="1"
+        android:textColor="#000"
+        android:singleLine="false"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+
+
+
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A single place to read all the news you can rely on to think,learn and keep ahead.."
+        android:textSize="20dp"
+        android:layout_below="@id/welcome_text_view"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textColor="#000"
+        android:id="@+id/tag_text_view"
+        android:textStyle="bold"
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+TITLE : NEWSREADER_APP(App to display RSS feed of newspapaers in a ListView)
+
+Group-Members
+
+L SAHANA -cs14btech11021
+S KUMUDA PRIYA -cs14btech11029
+T ANUSHA - cs14btech11036
+
+
+
+MOTIVATION : 
+
+		"A single place to read all the news you can rely on to think,learn and keep ahead"
+			To provide information from all the newspapers at a single place
+
+DESCRIPTION OF PROJECT :
+
+	step 1 : Extract information(article url , image url , title , text) from webpage of newspaper
+	step 2 : Store it in a database and then post it on a webserver
+	step 3 : Extract data from webserver in android-studio and display it in app using list view
+
+HOW CAN WE IMPROVE PROJECT:
+
+	We can wide vareity of categories and newspapers
+	We can also add blogs
+	We can have sign_up and log_in options
+	We can ask priorities after sign up and display in homepage
+
+TOOLS/TECHINIQUES :
+	
+	NETBEANS
+	Android Studio
+
+	JSoup is used to extract information from newspaper's webpage
+	postgres database
+	web.py for web server
+	Picaso to load a image from its URL
+	volley to make network calls
+
